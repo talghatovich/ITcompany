@@ -28,7 +28,7 @@ public class UserRepository implements IUserRepository {
             statement.setString(3, employee.getDateOfBirth());
             statement.setString(4, employee.getEmail());
             statement.setInt(5, employee.getSalary());
-            statement.setString(5,employee.getStartDate());
+            statement.setString(6,employee.getStartDate());
 
             boolean executed = statement.execute();
             return executed;
