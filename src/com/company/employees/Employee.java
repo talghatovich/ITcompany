@@ -4,7 +4,7 @@ public class Employee{
     private int id;
     private static int id_gen=0;
     public Employee(){
-        id = id_gen++;
+
     }
 
     private String Name;
